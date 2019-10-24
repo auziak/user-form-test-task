@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  margin-top: 50px;
+  background-color: #ddd;
+  padding: 30px;
+}
+
+.input-fields {
+  margin-bottom: 30px;
+}
+
+.form-button {
+  margin: 10px;
+  display: block;
+}
+
+#visibility:hover {
+  cursor: pointer;
+}
