@@ -233,6 +233,11 @@ function App() {
                         password: ''
                       });
                     });
+                } else if (numberCheck) {
+                  setValues({
+                    ...state,
+                    passwordErrorText: "Password shouldn't contain only numbers"
+                  });
                 }
               }}
             >
